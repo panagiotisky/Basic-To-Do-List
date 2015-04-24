@@ -9,10 +9,10 @@ document.getElementById('clear').addEventListener('click', function(e) {
   location.reload();
 });
 
-loadList();
-
 function loadList() {
   if ( localStorage.getItem('toDoList') ) {
     theList.innerHTML = localStorage.getItem('toDoList');
   }
 }
+
+loadList();
