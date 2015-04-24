@@ -1,1 +1,1 @@
-A basic to-do list using HTML5 with localStorage
+A basic To-Do List using HTML5 with localStorage
